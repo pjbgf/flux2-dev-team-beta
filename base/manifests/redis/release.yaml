@@ -3,6 +3,7 @@ kind: HelmRelease
 metadata:
   name: redis
 spec:
+  serviceAccountName: dev-team-beta-redis
   releaseName: redis
   chart:
     spec:

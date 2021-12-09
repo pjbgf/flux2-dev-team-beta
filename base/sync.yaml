@@ -5,7 +5,7 @@ metadata:
   name: dev-team-beta-subnamespaces
   namespace: dev-team-beta-ns
 spec:
-  serviceAccountName: dev-team-beta
+  serviceAccountName: flux
   interval: 5m
   sourceRef:
     kind: GitRepository
@@ -19,7 +19,7 @@ metadata:
   name: dev-team-beta-resources
   namespace: dev-team-beta-ns
 spec:
-  serviceAccountName: dev-team-beta
+  serviceAccountName: flux
   interval: 5m
   dependsOn:
     - name: dev-team-beta-subnamespaces

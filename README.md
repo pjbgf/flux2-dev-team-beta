@@ -83,7 +83,7 @@ service/redis-master     ClusterIP   10.96.49.242   <none>        6379/TCP   97m
 ```shell
 $ kubectl get HelmRelease -A
 NAMESPACE           NAME      READY   STATUS                             AGE
-dev-team-alpha-ns   podinfo   True    Release reconciliation succeeded   65m
+dev-team-beta-ns    redis     True    Release reconciliation succeeded   97m
 ```
 
 For more information, refer to the [hnc multi-tenant repo].
